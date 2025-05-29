@@ -5,44 +5,46 @@ In this project, the classic Pong Game has been enhanced with AI with the help o
 
 ## Features
 
--Classic Pong game developed with the help of Pygame.
--Paddle is controlled by AI which is trained with the help of NEAT Algorithm.
--Sound Effects of ball hitting the paddle.
--Checkpoint that saves and resumes the training process.
+-Classic Pong game developed with the help of Pygame.<br>
+-Paddle is controlled by AI which is trained with the help of NEAT Algorithm.<br>
+-Sound Effects of ball hitting the paddle.<br>
+-Checkpoint that saves and resumes the training process.<br>
 
 ## Requirements
 
--Python
--Pygame
--NEAT-Python
+-Python<br>
+-Pygame<br>
+-NEAT-Python<br>
 
 ### Installation
 
-1) Clone this repository:
+1) Clone this repository:<br>
    https://github.com/ayushsth/Pong-AI-with_NEAT
    cd Pong-AI-with_NEAT
 
-2) Install this:
+2) Install this:<br>
    pip install pygame neat-python
 
 ### Running the Game
 
 python pong_with_NEAT.py
 
+<br>
+
 Press P to Play Again
 Press X to Quit
 
 ### Training AI
 
-Uncomment this section in the code:
+Uncomment this section in the code:<br>
 run_neat(config)
 
 ### Resume Training from Checkpoint
 
-Uncomment this section and specify the checkpoint file:
+Uncomment this section and specify the checkpoint file:<br>
 run_neat(config, checkpoint_file='NEAT Checkpoints/neat-checkpoint-5')
 
 ### Things to consider
--Make sure NEAT-Python is installed.
--Sound effects are located in right folder.
+-Make sure NEAT-Python is installed.<br>
+-Sound effects are located in right folder.<br>
 -If training, the checkpoints are saved to correct folder.
