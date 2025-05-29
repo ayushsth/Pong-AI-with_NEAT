@@ -19,7 +19,7 @@ In this project, the classic Pong Game has been enhanced with AI with the help o
 ### Installation
 
 1) Clone this repository:<br>
-   https://github.com/ayushsth/Pong-AI-with_NEAT
+   https://github.com/ayushsth/Pong-AI-with_NEAT<br>
    cd Pong-AI-with_NEAT
 
 2) Install this:<br>
