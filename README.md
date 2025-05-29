@@ -35,7 +35,7 @@ python pong_with_NEAT.py
 ```
 
 <br>
-Press P to Play Again
+Press P to Play Again<br>
 Press X to Quit
 
 ### Training AI
