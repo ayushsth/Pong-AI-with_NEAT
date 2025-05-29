@@ -19,30 +19,38 @@ In this project, the classic Pong Game has been enhanced with AI with the help o
 ### Installation
 
 1) Clone this repository:<br>
+```bash
    https://github.com/ayushsth/Pong-AI-with_NEAT<br>
    cd Pong-AI-with_NEAT
+```
 
 2) Install this:<br>
+```bash
    pip install pygame neat-python
+```
 
 ### Running the Game
-
+```bash
 python pong_with_NEAT.py
+```
 
 <br>
-
 Press P to Play Again
 Press X to Quit
 
 ### Training AI
 
 Uncomment this section in the code:<br>
+```bash
 run_neat(config)
+```
 
 ### Resume Training from Checkpoint
 
 Uncomment this section and specify the checkpoint file:<br>
+```bash
 run_neat(config, checkpoint_file='NEAT Checkpoints/neat-checkpoint-5')
+```
 
 ### Things to consider
 -Make sure NEAT-Python is installed.<br>
