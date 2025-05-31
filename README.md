@@ -20,7 +20,7 @@ In this project, the classic Pong Game has been enhanced with AI with the help o
 
 1) Clone this repository:<br>
 ```bash
-   https://github.com/ayushsth/Pong-AI-with_NEAT
+   git clone https://github.com/ayushsth/Pong-AI-with_NEAT.git
    cd Pong-AI-with_NEAT
 ```
 
