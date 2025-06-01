@@ -55,4 +55,4 @@ run_neat(config, checkpoint_file='NEAT Checkpoints/neat-checkpoint-5')
 ### Things to consider
 -Make sure NEAT-Python is installed.<br>
 -Sound effects are located in right folder.<br>
--If training, the checkpoints are saved to correct folder.
+-If training is being done, the checkpoints are saved to correct folder.
